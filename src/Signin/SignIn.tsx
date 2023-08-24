@@ -4,7 +4,7 @@ import { useAuth, AuthCheck } from 'reactfire';
 import 'firebase/auth';
 import { Input } from '../SharedComponents/Input';
 import { Container, Button, makeStyles, Typography, Snackbar } from '@material-ui/core';
-import { RouteComponentProps, withRouter } from 'react-router-dom'
+//import { RouteComponentProps, withRouter } from 'react-router-dom'
 import MuiAlert, { AlertProps } from '@material-ui/lab/Alert';
 
 const Alert = (props: AlertProps) => {
@@ -48,7 +48,7 @@ const useStyles = makeStyles({
     }
 
 });
-
+/*
 interface SingInProps{
     history: RouteComponentProps["history"];
     location: RouteComponentProps['location'];
@@ -117,3 +117,4 @@ export const SignIn = withRouter( (props:SingInProps) => {
         </div>
     )
 });
+*/
